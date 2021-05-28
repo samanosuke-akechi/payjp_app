@@ -14,5 +14,10 @@ class CardsController < ApplicationController
       customer_token: customer.id, # 顧客トークン
       user_id: current_user.id # ログインしているユーザー
     )
+    if card.save
+      redirect_to root_path
+    else
+      redirect_to action: "new" # カード登録画面
+    end
   end
 end
