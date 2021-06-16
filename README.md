@@ -1,24 +1,4 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# アプリケーション概要
+TECH CAMPのカリキュラムでPAY.JPというサービスを利用したクレジットカード決済機能の実装方法を学習するためのアプリケーション。  
+PAY.JPのAPIを利用するための実装から、カード情報の登録、ユーザー情報とカード情報の紐付けにより購入のたびにカード情報の入力を省略する実装も行っている（トークンによる管理）。  
+デプロイはしていない。
